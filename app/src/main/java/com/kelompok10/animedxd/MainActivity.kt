@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             AnimeDXDTheme {
                 Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Valdo",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     AnimeDXDTheme {
-        Greeting("Android")
+        Greeting("Christvaldo")
     }
 }
